@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90F3A0A61CCB9A8A003DA0FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F3A0A51CCB9A8A003DA0FB /* main.m */; };
+		90F3A0A91CCB9A8A003DA0FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F3A0A81CCB9A8A003DA0FB /* AppDelegate.m */; };
+		90F3A0AC1CCB9A8A003DA0FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F3A0AB1CCB9A8A003DA0FB /* ViewController.m */; };
+		90F3A0AF1CCB9A8A003DA0FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F3A0AD1CCB9A8A003DA0FB /* Main.storyboard */; };
+		90F3A0B21CCB9A8A003DA0FB /* SMBtnDropAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90F3A0B01CCB9A8A003DA0FB /* SMBtnDropAnimation.xcdatamodeld */; };
+		90F3A0B41CCB9A8A003DA0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F3A0B31CCB9A8A003DA0FB /* Assets.xcassets */; };
+		90F3A0B71CCB9A8A003DA0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F3A0B51CCB9A8A003DA0FB /* LaunchScreen.storyboard */; };
+		90F3A0C21CCB9A8A003DA0FB /* SMBtnDropAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F3A0C11CCB9A8A003DA0FB /* SMBtnDropAnimationTests.m */; };
+		90F3A0CD1CCB9A8A003DA0FB /* SMBtnDropAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F3A0CC1CCB9A8A003DA0FB /* SMBtnDropAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90F3A0BE1CCB9A8A003DA0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90F3A0991CCB9A8A003DA0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90F3A0A01CCB9A8A003DA0FB;
+			remoteInfo = SMBtnDropAnimation;
+		};
+		90F3A0C91CCB9A8A003DA0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90F3A0991CCB9A8A003DA0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90F3A0A01CCB9A8A003DA0FB;
+			remoteInfo = SMBtnDropAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90F3A0A11CCB9A8A003DA0FB /* SMBtnDropAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMBtnDropAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F3A0A51CCB9A8A003DA0FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90F3A0A71CCB9A8A003DA0FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90F3A0A81CCB9A8A003DA0FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90F3A0AA1CCB9A8A003DA0FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90F3A0AB1CCB9A8A003DA0FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90F3A0AE1CCB9A8A003DA0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90F3A0B11CCB9A8A003DA0FB /* SMBtnDropAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMBtnDropAnimation.xcdatamodel; sourceTree = "<group>"; };
+		90F3A0B31CCB9A8A003DA0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90F3A0B61CCB9A8A003DA0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90F3A0B81CCB9A8A003DA0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F3A0BD1CCB9A8A003DA0FB /* SMBtnDropAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMBtnDropAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F3A0C11CCB9A8A003DA0FB /* SMBtnDropAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMBtnDropAnimationTests.m; sourceTree = "<group>"; };
+		90F3A0C31CCB9A8A003DA0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F3A0C81CCB9A8A003DA0FB /* SMBtnDropAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMBtnDropAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F3A0CC1CCB9A8A003DA0FB /* SMBtnDropAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMBtnDropAnimationUITests.m; sourceTree = "<group>"; };
+		90F3A0CE1CCB9A8A003DA0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90F3A09E1CCB9A8A003DA0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F3A0BA1CCB9A8A003DA0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F3A0C51CCB9A8A003DA0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90F3A0981CCB9A8A003DA0FB = {
+			isa = PBXGroup;
+			children = (
+				90F3A0A31CCB9A8A003DA0FB /* SMBtnDropAnimation */,
+				90F3A0C01CCB9A8A003DA0FB /* SMBtnDropAnimationTests */,
+				90F3A0CB1CCB9A8A003DA0FB /* SMBtnDropAnimationUITests */,
+				90F3A0A21CCB9A8A003DA0FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90F3A0A21CCB9A8A003DA0FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90F3A0A11CCB9A8A003DA0FB /* SMBtnDropAnimation.app */,
+				90F3A0BD1CCB9A8A003DA0FB /* SMBtnDropAnimationTests.xctest */,
+				90F3A0C81CCB9A8A003DA0FB /* SMBtnDropAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90F3A0A31CCB9A8A003DA0FB /* SMBtnDropAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				90F3A0A71CCB9A8A003DA0FB /* AppDelegate.h */,
+				90F3A0A81CCB9A8A003DA0FB /* AppDelegate.m */,
+				90F3A0AA1CCB9A8A003DA0FB /* ViewController.h */,
+				90F3A0AB1CCB9A8A003DA0FB /* ViewController.m */,
+				90F3A0AD1CCB9A8A003DA0FB /* Main.storyboard */,
+				90F3A0B31CCB9A8A003DA0FB /* Assets.xcassets */,
+				90F3A0B51CCB9A8A003DA0FB /* LaunchScreen.storyboard */,
+				90F3A0B81CCB9A8A003DA0FB /* Info.plist */,
+				90F3A0B01CCB9A8A003DA0FB /* SMBtnDropAnimation.xcdatamodeld */,
+				90F3A0A41CCB9A8A003DA0FB /* Supporting Files */,
+			);
+			path = SMBtnDropAnimation;
+			sourceTree = "<group>";
+		};
+		90F3A0A41CCB9A8A003DA0FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90F3A0A51CCB9A8A003DA0FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90F3A0C01CCB9A8A003DA0FB /* SMBtnDropAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				90F3A0C11CCB9A8A003DA0FB /* SMBtnDropAnimationTests.m */,
+				90F3A0C31CCB9A8A003DA0FB /* Info.plist */,
+			);
+			path = SMBtnDropAnimationTests;
+			sourceTree = "<group>";
+		};
+		90F3A0CB1CCB9A8A003DA0FB /* SMBtnDropAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90F3A0CC1CCB9A8A003DA0FB /* SMBtnDropAnimationUITests.m */,
+				90F3A0CE1CCB9A8A003DA0FB /* Info.plist */,
+			);
+			path = SMBtnDropAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90F3A0A01CCB9A8A003DA0FB /* SMBtnDropAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F3A0D11CCB9A8A003DA0FB /* Build configuration list for PBXNativeTarget "SMBtnDropAnimation" */;
+			buildPhases = (
+				90F3A09D1CCB9A8A003DA0FB /* Sources */,
+				90F3A09E1CCB9A8A003DA0FB /* Frameworks */,
+				90F3A09F1CCB9A8A003DA0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMBtnDropAnimation;
+			productName = SMBtnDropAnimation;
+			productReference = 90F3A0A11CCB9A8A003DA0FB /* SMBtnDropAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90F3A0BC1CCB9A8A003DA0FB /* SMBtnDropAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F3A0D41CCB9A8A003DA0FB /* Build configuration list for PBXNativeTarget "SMBtnDropAnimationTests" */;
+			buildPhases = (
+				90F3A0B91CCB9A8A003DA0FB /* Sources */,
+				90F3A0BA1CCB9A8A003DA0FB /* Frameworks */,
+				90F3A0BB1CCB9A8A003DA0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90F3A0BF1CCB9A8A003DA0FB /* PBXTargetDependency */,
+			);
+			name = SMBtnDropAnimationTests;
+			productName = SMBtnDropAnimationTests;
+			productReference = 90F3A0BD1CCB9A8A003DA0FB /* SMBtnDropAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90F3A0C71CCB9A8A003DA0FB /* SMBtnDropAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F3A0D71CCB9A8A003DA0FB /* Build configuration list for PBXNativeTarget "SMBtnDropAnimationUITests" */;
+			buildPhases = (
+				90F3A0C41CCB9A8A003DA0FB /* Sources */,
+				90F3A0C51CCB9A8A003DA0FB /* Frameworks */,
+				90F3A0C61CCB9A8A003DA0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90F3A0CA1CCB9A8A003DA0FB /* PBXTargetDependency */,
+			);
+			name = SMBtnDropAnimationUITests;
+			productName = SMBtnDropAnimationUITests;
+			productReference = 90F3A0C81CCB9A8A003DA0FB /* SMBtnDropAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90F3A0991CCB9A8A003DA0FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Shankar;
+				TargetAttributes = {
+					90F3A0A01CCB9A8A003DA0FB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					90F3A0BC1CCB9A8A003DA0FB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 90F3A0A01CCB9A8A003DA0FB;
+					};
+					90F3A0C71CCB9A8A003DA0FB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 90F3A0A01CCB9A8A003DA0FB;
+					};
+				};
+			};
+			buildConfigurationList = 90F3A09C1CCB9A8A003DA0FB /* Build configuration list for PBXProject "SMBtnDropAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90F3A0981CCB9A8A003DA0FB;
+			productRefGroup = 90F3A0A21CCB9A8A003DA0FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90F3A0A01CCB9A8A003DA0FB /* SMBtnDropAnimation */,
+				90F3A0BC1CCB9A8A003DA0FB /* SMBtnDropAnimationTests */,
+				90F3A0C71CCB9A8A003DA0FB /* SMBtnDropAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90F3A09F1CCB9A8A003DA0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F3A0B71CCB9A8A003DA0FB /* LaunchScreen.storyboard in Resources */,
+				90F3A0B41CCB9A8A003DA0FB /* Assets.xcassets in Resources */,
+				90F3A0AF1CCB9A8A003DA0FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F3A0BB1CCB9A8A003DA0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F3A0C61CCB9A8A003DA0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90F3A09D1CCB9A8A003DA0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F3A0B21CCB9A8A003DA0FB /* SMBtnDropAnimation.xcdatamodeld in Sources */,
+				90F3A0AC1CCB9A8A003DA0FB /* ViewController.m in Sources */,
+				90F3A0A91CCB9A8A003DA0FB /* AppDelegate.m in Sources */,
+				90F3A0A61CCB9A8A003DA0FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F3A0B91CCB9A8A003DA0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F3A0C21CCB9A8A003DA0FB /* SMBtnDropAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F3A0C41CCB9A8A003DA0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F3A0CD1CCB9A8A003DA0FB /* SMBtnDropAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90F3A0BF1CCB9A8A003DA0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90F3A0A01CCB9A8A003DA0FB /* SMBtnDropAnimation */;
+			targetProxy = 90F3A0BE1CCB9A8A003DA0FB /* PBXContainerItemProxy */;
+		};
+		90F3A0CA1CCB9A8A003DA0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90F3A0A01CCB9A8A003DA0FB /* SMBtnDropAnimation */;
+			targetProxy = 90F3A0C91CCB9A8A003DA0FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90F3A0AD1CCB9A8A003DA0FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90F3A0AE1CCB9A8A003DA0FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90F3A0B51CCB9A8A003DA0FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90F3A0B61CCB9A8A003DA0FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90F3A0CF1CCB9A8A003DA0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90F3A0D01CCB9A8A003DA0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90F3A0D21CCB9A8A003DA0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMBtnDropAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMBtnDropAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90F3A0D31CCB9A8A003DA0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMBtnDropAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMBtnDropAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90F3A0D51CCB9A8A003DA0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMBtnDropAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMBtnDropAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMBtnDropAnimation.app/SMBtnDropAnimation";
+			};
+			name = Debug;
+		};
+		90F3A0D61CCB9A8A003DA0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMBtnDropAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMBtnDropAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMBtnDropAnimation.app/SMBtnDropAnimation";
+			};
+			name = Release;
+		};
+		90F3A0D81CCB9A8A003DA0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMBtnDropAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMBtnDropAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMBtnDropAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		90F3A0D91CCB9A8A003DA0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMBtnDropAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMBtnDropAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMBtnDropAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90F3A09C1CCB9A8A003DA0FB /* Build configuration list for PBXProject "SMBtnDropAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F3A0CF1CCB9A8A003DA0FB /* Debug */,
+				90F3A0D01CCB9A8A003DA0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F3A0D11CCB9A8A003DA0FB /* Build configuration list for PBXNativeTarget "SMBtnDropAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F3A0D21CCB9A8A003DA0FB /* Debug */,
+				90F3A0D31CCB9A8A003DA0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90F3A0D41CCB9A8A003DA0FB /* Build configuration list for PBXNativeTarget "SMBtnDropAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F3A0D51CCB9A8A003DA0FB /* Debug */,
+				90F3A0D61CCB9A8A003DA0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90F3A0D71CCB9A8A003DA0FB /* Build configuration list for PBXNativeTarget "SMBtnDropAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F3A0D81CCB9A8A003DA0FB /* Debug */,
+				90F3A0D91CCB9A8A003DA0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90F3A0B01CCB9A8A003DA0FB /* SMBtnDropAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90F3A0B11CCB9A8A003DA0FB /* SMBtnDropAnimation.xcdatamodel */,
+			);
+			currentVersion = 90F3A0B11CCB9A8A003DA0FB /* SMBtnDropAnimation.xcdatamodel */;
+			path = SMBtnDropAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90F3A0991CCB9A8A003DA0FB /* Project object */;
+}
